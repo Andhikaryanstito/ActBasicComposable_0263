@@ -115,3 +115,12 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
             contentAlignment = Alignment.Center
         ) {
             Column {
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Col 1 Row 1 Komponen 1", modifier = Modifier.weight(1f), textAlign = TextAlign.Center)
+                    Text(text = "Col 1 Row 1 Komponen 2", modifier = Modifier.weight(1f), textAlign = TextAlign.Center)
+                    Text(text = "Col 1 Row 1 Komponen 3", modifier = Modifier.weight(1f), textAlign = TextAlign.Center)
+                }
