@@ -69,3 +69,20 @@ fun TugasLogin() {
                 color = Color.Black
             )
             Spacer(modifier = Modifier.height(40.dp))
+            Image(
+                painter = painterResource(id = R.drawable.masjid),
+                contentDescription = "Foto Profil Bawah",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(200.dp)
+                    .clip(CircleShape)
+            )
+        }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun TugasLoginPreview() {
+    TugasLogin()
+}
