@@ -44,3 +44,9 @@ fun TugasLogin() {
                 color = Color.White
             )
             Spacer(modifier = Modifier.height(30.dp))
+            Image(
+                painter = painterResource(id = R.drawable.notasinatom),
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(150.dp)
+            )
+            Spacer(modifier = Modifier.height(50.dp))
