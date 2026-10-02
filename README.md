@@ -4,7 +4,8 @@ Repository ini berisi hasil pengerjaan Modul Teori dan Tugas Praktikum Pertemuan
 Nama file utama yang digunakan adalah MainActivity.kt, Tataletak.kt, dan TugasLogin.kt.
 
 1. Hasil Activity Teori (Tata Letak)
-![Uploading image.png…]()
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/0d7b7ffb-509a-44bf-982b-7397689b188d" />
+
 
 Bagian ini adalah hasil pengerjaan kodingan dari modul PDF praktikum (file Tataletak.kt).
 Layout ini menggunakan kombinasi tata letak Box, Column, dan Row yang porsi lebarnya sudah dibagi rata menggunakan modifier weight.
