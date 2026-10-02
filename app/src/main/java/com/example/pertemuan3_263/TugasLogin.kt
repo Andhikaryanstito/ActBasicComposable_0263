@@ -19,3 +19,10 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun TugasLogin() {
     Box(modifier = Modifier.fillMaxSize()) {
+        // Background
+        Image(
+            painter = painterResource(id = R.drawable.admisiumy),
+            contentDescription = "Background",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
