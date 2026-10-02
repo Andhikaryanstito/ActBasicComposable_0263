@@ -56,3 +56,9 @@ fun TugasLogin() {
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             )
+            Text(
+                text = "Andhika Ryan Stito",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
